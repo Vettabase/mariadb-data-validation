@@ -90,7 +90,7 @@ END ||
 -- Generic String Functions
 -- ========================
 
-CREATE FUNCTION is_numeric(i_value TEXT)
+CREATE FUNCTION is_digits(i_value TEXT)
     RETURNS BOOL
     DETERMINISTIC
     CONTAINS SQL
